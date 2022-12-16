@@ -1,0 +1,575 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "inter,sans-serif";
+  font-weight: 300;
+  overflow:scroll;
+  }
+  .nav-container{
+background-color: black;
+height: 44px;
+z-index: 300;
+position: fixed;
+left: 0;
+top: 0;
+right: 0;
+  }
+  .nav-container nav{
+    width:1000px;
+    margin: 0 auto;
+   padding-top:  10px;
+   
+  }
+  .nav-container nav li a{
+    color: rgb(175, 176, 178);
+    text-decoration: none;
+font-size: smaller;
+
+
+  }
+  .text-nav{
+    display: flex;
+    justify-content: space-between;
+    list-style:none;
+    padding-top: 0;
+    padding-left: 40px;
+  }
+.nav-container nav li a:hover{
+  color: rgb(253, 253, 251);
+}
+
+  .apple{
+    margin-top: 2px;
+    margin-left: 10px;
+    height: 17px;
+    width: 17px;
+    float: left;
+  }
+  .apple:hover{
+    color: rgb(248, 251, 254);
+  }
+.search{
+  height: 13px; 
+  margin-top: 5px;
+
+}
+  .bag{
+   height: 38px;
+   margin-top: -7px;
+  }
+  .div2{
+background-color: rgb(246, 244, 244);
+margin-top: 40px;
+height: 47px;
+padding-top: 15px;
+padding-left: 300px;
+  }
+ 
+.head{
+  font-family: sans-serif;
+  font-size: 15px;
+  height: 20px;
+  color: rgb(96, 93, 93);
+}
+.ahead{
+  text-decoration: none;
+  color: blue;
+  
+  }
+    
+
+.iphone{
+  width: 100%;
+ height: 580px;
+ text-decoration: none;
+}
+.ihead{
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 55px;
+  font-weight: 550;
+ margin-top: -550px;
+ padding-left: 600px;
+}
+.ihead2{
+  padding-left: 640px; 
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 5px;
+  font-size: 30px;
+  font-weight: 100;
+  padding-bottom: 10px;
+
+}
+.learnmore{
+margin-left: 610px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 22px;
+font-weight: 400;
+color: #06c;
+text-decoration-line: none;
+} 
+.learnmore:hover{
+  text-decoration-line: underline;
+}
+.buy{
+  font-family: Arial, Helvetica, sans-serif;
+font-size: 22px;
+  padding-left: 35px;
+  font-weight: 100;
+  text-decoration: none;
+  color:#06c;
+}
+.buy:hover{
+  text-decoration: underline;
+} 
+
+.div4{
+  margin-left: -50px;
+  margin-top: 40px;
+}
+.iphone14pro{
+  padding-top: 380px;
+width: 100%;
+}
+.pro14{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 55px;
+  font-weight: 550;
+ margin-top: -550px;
+ padding-left: 600px;
+ color: aliceblue;
+}
+.probeyond{
+  padding-left: 690px; 
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 5px;
+  font-size: 28px;
+  font-weight: 150;
+  padding-bottom: 10px;
+  color: aliceblue;
+}
+.div5{
+  margin-top: 425px;
+  margin-left: -300px;
+}
+.airpodlogo{
+  margin-top: -560px;
+  margin-left: 900px;
+}
+
+.air{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 55px;
+  font-weight: 550;
+ padding-left: 520px;  
+
+}
+.sharethejoy{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 450;
+ padding-left: 525px;  
+}
+.shop{
+color: #06c;
+margin-left: 580px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+font-weight: 100;
+}
+.shop:hover{
+  text-decoration: underline;
+}
+.total{
+  padding-top: 2160px;
+  background-color: rgb(243, 243, 249);
+  width: 100%;
+}
+.l1{
+  margin-top: -1780px;
+  padding-top: auto;
+  margin-left: 5px;
+  width: 750px;
+  height: 590px;
+  float: left;
+  background-image: url(images/promo_ipad__fioegapg12qi_large.jpg);
+}
+.r1{
+background-image: url(images/promo_ipadpro__ch217v9v7no2_large.jpg);
+  margin-top: -1780px;
+  padding-top: auto;
+  margin-left: 50%;
+  width: 750px;
+  height: 590px;
+  float: left;
+}
+.l2{
+
+background-image: url(images/tv-fork.jpg);
+  margin-top: -1185px;
+  padding-top: auto;
+  margin-left: 5px;
+  width: 750px;
+  height: 590px;
+  float: left;
+}
+.r2{
+  background-image: url(images/apple_watch_ultra.jpg);
+  margin-top: -1185px;
+  padding-top: auto;
+  margin-left: 50%;
+  width: 750px;
+  height: 590px;
+  float: left;
+}
+.l3{
+  background-image: url(images/series-8.jpg);
+  margin-top: -590px;
+  padding-top: auto;
+  margin-left: 5px;
+  width: 750px;
+  height: 580px;
+  float: left;
+}
+.r3{
+  background-image: url(images/macbookair.png);
+  margin-top: -590px;
+  padding-top: auto;
+  margin-left: 50%;
+  width: 750px;
+  height: 590px;
+  float: left;
+}
+.ipad{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 300px;
+  margin-top: 50px;
+  font-size: 40px;
+  font-weight: 550;
+   
+}
+.lovable{
+  margin-left: 250px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+.learnmore2{
+  margin-left: 250px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #06c;
+  font-weight: 100;
+}
+.learnmore2:hover{
+  text-decoration: underline;
+}
+.buy2{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 30px;
+  text-decoration: none;
+  color: #06c;
+  font-weight: 100;
+}
+.buy2:hover{
+  text-decoration: underline;
+}
+.ipadpro{
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 250px;
+  margin-top: 50px;
+  font-size: 40px;
+  font-weight: 550;
+}
+.m2{
+ padding-top: -20px;
+}
+.charge{
+  color: aliceblue;
+  margin-left: 220px;
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  float: left;
+}
+.cine{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+
+  margin-left: 240px;
+  color: black;
+}
+.adv{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  
+  margin-left: 260px;
+  color: black;
+}
+.leap{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  font-weight: 50;
+  
+  margin-left: 230px;
+  color: rgb(255, 240, 240);
+}
+.mac{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 220px;
+  margin-top: 50px;
+  font-size: 40px;
+  font-weight: 550;
+}
+.maclogo{
+  margin-left: 240px;
+}
+.tv{
+  margin-left: 290px;
+  margin-top: 100px;
+
+}
+.ultra{
+  margin-left: 270px;
+  margin-top: 100px;
+}
+.series8{
+  margin-left: 270px;
+  margin-top: 100px;
+}
+.footer{
+  margin-top: 10px;
+  padding-top: 700px;
+  background-color: #f5f5f7;;
+}
+.p1{
+  margin-left: 270px;
+  margin-right: 270px;
+  margin-top: -680px;
+  font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px;
+ color: #6e6e73;
+}
+.p2{
+  padding-top: 10px;
+  margin-left: 270px;
+  margin-right: 270px;
+  font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px;
+ color: #6e6e73;
+}
+.p3{
+  padding-top: 10px;
+  margin-left: 270px;
+  margin-right: 270px;
+  font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px;
+ color: #6e6e73;
+}
+.line{
+  margin-top: 20px;
+  margin-left: 270px;
+  margin-right: 270px;
+}
+.foot1{
+  margin-top: 25px;
+  padding-top: 360px;
+  margin-left: 270px;
+  margin-right: 1060px;
+
+}
+
+.foot2{
+  margin-top: -360px;
+  padding-top: 360px;
+  margin-left: 460px;
+  margin-right: 863px;
+
+}
+.foot3{
+  margin-top: -360px;
+  padding-top: 335px;
+  margin-left: 657px;
+  margin-right: 660px;
+}
+.foot4{
+  margin-top: -360px;
+  padding-top: 360px;
+  margin-left: 860px;
+  margin-right:480px;
+  
+}
+.foot5{
+  margin-top: -360px;
+  padding-top: 337px;
+  margin-left: 1040px;
+  margin-right: 300px;
+} 
+.mainhead{
+  margin-top: -350px;
+  padding-left: 2px;
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+}
+.mainhead:hover{
+  text-decoration: none;
+}
+.shopli{
+  list-style: none;
+  padding-left: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+text-align: left;
+line-height: 23px;
+}
+.shopli li a{
+  color:#6e6e73;
+  text-decoration: none;
+}
+.shopli li a:hover{
+  text-decoration-line: underline;
+}
+.account{
+  padding-top: 10px;
+  padding-left: 2px;
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: 100;
+}
+.edu{
+  padding-top: 10px;
+  padding-left: 2px;
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 100;
+}
+.health{
+  padding-top: 10px;
+  padding-left: 2px;
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight:100;
+}
+.govt{
+  padding-top: 10px;
+  padding-left: 2px;
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight:100;
+}
+.about{
+  padding-top: 10px;
+  padding-left: 2px;
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight:100;
+}
+.lastp{
+  margin-top: 50px;
+  margin-left: 270px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+  color: #6e6e73;
+}
+.retailer{
+  text-decoration: none;
+  color: #06c;
+}
+.retailer:hover{
+  text-decoration: underline;
+}
+.line2{
+  margin-top: 10px;
+  margin-left: 270px;
+  margin-right: 270px;
+}
+.lastp2{
+  margin-top: 8px;
+  margin-left: 270px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+  color: #6e6e73;
+  margin-right: 200px;
+
+}
+.footlast{
+  margin-top: -17px;
+  margin-left: 550px;
+  display: flex;
+    justify-content: space-between;
+    list-style:none;
+    padding-top: 0;
+    padding-left: 40px;
+    margin-right: 500px;
+}
+.footlast li a{
+  text-decoration: none;
+  color: #6e6e73;
+}
+.footlast li a:hover{
+  text-decoration: underline;
+  color: rgb(69, 67, 67);
+}
+.india{
+  margin-left: 650px;
+  text-decoration: none;
+  color: #6e6e73;
+}
+.india:hover{
+  text-decoration: underline;
+  color: rgb(69, 67, 67);
+}
+.movingpic{
+  background-color: rgb(249, 247, 247);
+  margin-bottom: 10px;
+  padding-top: 650px;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-image: url(images/will\ smith.webp);
+ background-size: cover;
+}
+
+.stream{
+  padding-top: 15px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  margin-right: 900px;
+  margin-top: -140px;
+  margin-left: 150px;
+background-color:white;
+border-radius: 100px;
+}
+.button{
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+}
+.pause{
+padding-bottom: 4px;
+  height: 22px;
+}
+.stream:hover{
+  background-color: #d8d8daa4;
+}
+.sn{
+  text-decoration: none;
+  color: black;
+}
